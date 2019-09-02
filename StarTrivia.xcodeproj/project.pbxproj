@@ -3,25 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20C1E8102316AFCC00DF4146 /* FadeEnbledBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1E80F2316AFCC00DF4146 /* FadeEnbledBtn.swift */; };
+		20C1E8122316B51900DF4146 /* HomeWorldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1E8112316B51900DF4146 /* HomeWorldVC.swift */; };
+		20C1E8142316B54700DF4146 /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1E8132316B54700DF4146 /* VehiclesVC.swift */; };
+		20C1E8162316B56700DF4146 /* StarShipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1E8152316B56700DF4146 /* StarShipsVC.swift */; };
+		20C1E8182316B57D00DF4146 /* FilmsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1E8172316B57D00DF4146 /* FilmsVc.swift */; };
+		20C1E81A2316C81600DF4146 /* HomeWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1E8192316C81600DF4146 /* HomeWorld.swift */; };
+		20C1E81C2316C8E800DF4146 /* HomeWorldAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1E81B2316C8E800DF4146 /* HomeWorldAPI.swift */; };
 		20F19A2E2313E06D0061BE11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F19A2D2313E06D0061BE11 /* AppDelegate.swift */; };
-		20F19A302313E06D0061BE11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F19A2F2313E06D0061BE11 /* ViewController.swift */; };
+		20F19A302313E06D0061BE11 /* SelectPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F19A2F2313E06D0061BE11 /* SelectPerson.swift */; };
 		20F19A332313E06D0061BE11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F19A312313E06D0061BE11 /* Main.storyboard */; };
 		20F19A352313E0710061BE11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20F19A342313E0710061BE11 /* Assets.xcassets */; };
 		20F19A382313E0710061BE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20F19A362313E0710061BE11 /* LaunchScreen.storyboard */; };
+		20F19A422313E2C10061BE11 /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F19A3F2313E2C10061BE11 /* Starjout.ttf */; };
+		20F19A432313E2C10061BE11 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F19A402313E2C10061BE11 /* Starjedi.ttf */; };
+		20F19A442313E2C10061BE11 /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 20F19A412313E2C10061BE11 /* Starjhol.ttf */; };
+		20F19A4C2313EAB70061BE11 /* CustomBlackBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F19A4B2313EAB70061BE11 /* CustomBlackBG.swift */; };
+		20F19A4F2313F4CB0061BE11 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F19A4E2313F4CB0061BE11 /* Constant.swift */; };
+		20F19A522313F5450061BE11 /* PersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F19A512313F5450061BE11 /* PersonAPI.swift */; };
+		20F19A542313FA9C0061BE11 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F19A532313FA9C0061BE11 /* Person.swift */; };
+		20F8054A23180B880053C18A /* VehicleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F8054923180B880053C18A /* VehicleAPI.swift */; };
+		20F8054E23181EF60053C18A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F8054D23181EF60053C18A /* Vehicle.swift */; };
+		20F80550231837120053C18A /* StarShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F8054F231837120053C18A /* StarShips.swift */; };
+		20F805522318384F0053C18A /* StarShipApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F805512318384F0053C18A /* StarShipApi.swift */; };
+		20F80554231849A20053C18A /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F80553231849A20053C18A /* Film.swift */; };
+		20F8055623184C550053C18A /* FilmAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F8055523184C550053C18A /* FilmAPI.swift */; };
+		B3D531BDE40613DC33B82B48 /* Pods_StarTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BE0BBFEFC86D3491ADE7F4 /* Pods_StarTrivia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20C1E80F2316AFCC00DF4146 /* FadeEnbledBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnbledBtn.swift; sourceTree = "<group>"; };
+		20C1E8112316B51900DF4146 /* HomeWorldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorldVC.swift; sourceTree = "<group>"; };
+		20C1E8132316B54700DF4146 /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
+		20C1E8152316B56700DF4146 /* StarShipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShipsVC.swift; sourceTree = "<group>"; };
+		20C1E8172316B57D00DF4146 /* FilmsVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVc.swift; sourceTree = "<group>"; };
+		20C1E8192316C81600DF4146 /* HomeWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorld.swift; sourceTree = "<group>"; };
+		20C1E81B2316C8E800DF4146 /* HomeWorldAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorldAPI.swift; sourceTree = "<group>"; };
 		20F19A2A2313E06D0061BE11 /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20F19A2D2313E06D0061BE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20F19A2F2313E06D0061BE11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20F19A2F2313E06D0061BE11 /* SelectPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPerson.swift; sourceTree = "<group>"; };
 		20F19A322313E06D0061BE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20F19A342313E0710061BE11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20F19A372313E0710061BE11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20F19A392313E0710061BE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F19A3F2313E2C10061BE11 /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		20F19A402313E2C10061BE11 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		20F19A412313E2C10061BE11 /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		20F19A4B2313EAB70061BE11 /* CustomBlackBG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlackBG.swift; sourceTree = "<group>"; };
+		20F19A4E2313F4CB0061BE11 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		20F19A512313F5450061BE11 /* PersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAPI.swift; sourceTree = "<group>"; };
+		20F19A532313FA9C0061BE11 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		20F8054923180B880053C18A /* VehicleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleAPI.swift; sourceTree = "<group>"; };
+		20F8054D23181EF60053C18A /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		20F8054F231837120053C18A /* StarShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShips.swift; sourceTree = "<group>"; };
+		20F805512318384F0053C18A /* StarShipApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarShipApi.swift; sourceTree = "<group>"; };
+		20F80553231849A20053C18A /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		20F8055523184C550053C18A /* FilmAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAPI.swift; sourceTree = "<group>"; };
+		30A58427C28FE87779F2A468 /* Pods-StarTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.release.xcconfig"; path = "Target Support Files/Pods-StarTrivia/Pods-StarTrivia.release.xcconfig"; sourceTree = "<group>"; };
+		697EF70C404EAEB2F3AE8BBC /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
+		72BE0BBFEFC86D3491ADE7F4 /* Pods_StarTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D531BDE40613DC33B82B48 /* Pods_StarTrivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +85,8 @@
 			children = (
 				20F19A2C2313E06D0061BE11 /* StarTrivia */,
 				20F19A2B2313E06D0061BE11 /* Products */,
+				904BBED03A62BA59D84019AC /* Pods */,
+				BC3503945AF1EA968103AD91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,107 @@
 		20F19A2C2313E06D0061BE11 /* StarTrivia */ = {
 			isa = PBXGroup;
 			children = (
-				20F19A2D2313E06D0061BE11 /* AppDelegate.swift */,
-				20F19A2F2313E06D0061BE11 /* ViewController.swift */,
+				20F19A492313E71E0061BE11 /* Model */,
+				20F19A482313E7160061BE11 /* View */,
+				20F19A472313E70F0061BE11 /* Controller */,
+				20F19A502313F5300061BE11 /* Services */,
+				20F19A462313E2D90061BE11 /* Resources */,
+				20F19A4D2313F4A00061BE11 /* Uitls */,
 				20F19A312313E06D0061BE11 /* Main.storyboard */,
 				20F19A342313E0710061BE11 /* Assets.xcassets */,
 				20F19A362313E0710061BE11 /* LaunchScreen.storyboard */,
 				20F19A392313E0710061BE11 /* Info.plist */,
+				20F19A2D2313E06D0061BE11 /* AppDelegate.swift */,
 			);
 			path = StarTrivia;
+			sourceTree = "<group>";
+		};
+		20F19A452313E2CE0061BE11 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				20F19A402313E2C10061BE11 /* Starjedi.ttf */,
+				20F19A412313E2C10061BE11 /* Starjhol.ttf */,
+				20F19A3F2313E2C10061BE11 /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		20F19A462313E2D90061BE11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20F19A452313E2CE0061BE11 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20F19A472313E70F0061BE11 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				20F19A2F2313E06D0061BE11 /* SelectPerson.swift */,
+				20C1E8112316B51900DF4146 /* HomeWorldVC.swift */,
+				20C1E8132316B54700DF4146 /* VehiclesVC.swift */,
+				20C1E8152316B56700DF4146 /* StarShipsVC.swift */,
+				20C1E8172316B57D00DF4146 /* FilmsVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		20F19A482313E7160061BE11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20F19A4B2313EAB70061BE11 /* CustomBlackBG.swift */,
+				20C1E80F2316AFCC00DF4146 /* FadeEnbledBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20F19A492313E71E0061BE11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20F19A532313FA9C0061BE11 /* Person.swift */,
+				20C1E8192316C81600DF4146 /* HomeWorld.swift */,
+				20F8054D23181EF60053C18A /* Vehicle.swift */,
+				20F8054F231837120053C18A /* StarShips.swift */,
+				20F80553231849A20053C18A /* Film.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20F19A4D2313F4A00061BE11 /* Uitls */ = {
+			isa = PBXGroup;
+			children = (
+				20F19A4E2313F4CB0061BE11 /* Constant.swift */,
+			);
+			path = Uitls;
+			sourceTree = "<group>";
+		};
+		20F19A502313F5300061BE11 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				20F19A512313F5450061BE11 /* PersonAPI.swift */,
+				20C1E81B2316C8E800DF4146 /* HomeWorldAPI.swift */,
+				20F8054923180B880053C18A /* VehicleAPI.swift */,
+				20F805512318384F0053C18A /* StarShipApi.swift */,
+				20F8055523184C550053C18A /* FilmAPI.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		904BBED03A62BA59D84019AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				697EF70C404EAEB2F3AE8BBC /* Pods-StarTrivia.debug.xcconfig */,
+				30A58427C28FE87779F2A468 /* Pods-StarTrivia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC3503945AF1EA968103AD91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72BE0BBFEFC86D3491ADE7F4 /* Pods_StarTrivia.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20F19A3C2313E0710061BE11 /* Build configuration list for PBXNativeTarget "StarTrivia" */;
 			buildPhases = (
+				E1BBB079FA6FD51C3769F124 /* [CP] Check Pods Manifest.lock */,
 				20F19A262313E06D0061BE11 /* Sources */,
 				20F19A272313E06D0061BE11 /* Frameworks */,
 				20F19A282313E06D0061BE11 /* Resources */,
+				382CBFD66ECB5D8DFAADBAE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +264,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20F19A422313E2C10061BE11 /* Starjout.ttf in Resources */,
+				20F19A442313E2C10061BE11 /* Starjhol.ttf in Resources */,
 				20F19A382313E0710061BE11 /* LaunchScreen.storyboard in Resources */,
 				20F19A352313E0710061BE11 /* Assets.xcassets in Resources */,
+				20F19A432313E2C10061BE11 /* Starjedi.ttf in Resources */,
 				20F19A332313E06D0061BE11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		382CBFD66ECB5D8DFAADBAE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1BBB079FA6FD51C3769F124 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarTrivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20F19A262313E06D0061BE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20F19A302313E06D0061BE11 /* ViewController.swift in Sources */,
+				20F19A542313FA9C0061BE11 /* Person.swift in Sources */,
+				20F8054A23180B880053C18A /* VehicleAPI.swift in Sources */,
+				20F19A4C2313EAB70061BE11 /* CustomBlackBG.swift in Sources */,
+				20C1E8142316B54700DF4146 /* VehiclesVC.swift in Sources */,
+				20C1E8102316AFCC00DF4146 /* FadeEnbledBtn.swift in Sources */,
+				20F19A302313E06D0061BE11 /* SelectPerson.swift in Sources */,
 				20F19A2E2313E06D0061BE11 /* AppDelegate.swift in Sources */,
+				20F80554231849A20053C18A /* Film.swift in Sources */,
+				20F8054E23181EF60053C18A /* Vehicle.swift in Sources */,
+				20F19A522313F5450061BE11 /* PersonAPI.swift in Sources */,
+				20C1E8122316B51900DF4146 /* HomeWorldVC.swift in Sources */,
+				20C1E8162316B56700DF4146 /* StarShipsVC.swift in Sources */,
+				20F80550231837120053C18A /* StarShips.swift in Sources */,
+				20C1E8182316B57D00DF4146 /* FilmsVc.swift in Sources */,
+				20F805522318384F0053C18A /* StarShipApi.swift in Sources */,
+				20F19A4F2313F4CB0061BE11 /* Constant.swift in Sources */,
+				20F8055623184C550053C18A /* FilmAPI.swift in Sources */,
+				20C1E81A2316C81600DF4146 /* HomeWorld.swift in Sources */,
+				20C1E81C2316C8E800DF4146 /* HomeWorldAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +484,7 @@
 		};
 		20F19A3D2313E0710061BE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 697EF70C404EAEB2F3AE8BBC /* Pods-StarTrivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +503,7 @@
 		};
 		20F19A3E2313E0710061BE11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30A58427C28FE87779F2A468 /* Pods-StarTrivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
